@@ -1,0 +1,19 @@
+create database CourseManagement;
+use CourseManagement;
+
+// Admin
+
+create table course(courseId int,title varchar(20),fees float ,description varchar(20),trainer varchar (20),startDate Date);
+
+select * from course ;
+
+//student
+
+create table student(enrollment_Id int, student_Id int,course_Id int);
+
+select * from student;
+
+
+//Trainer
+
+create table trainer(trainer_Id varchar(20),password varchar(20));

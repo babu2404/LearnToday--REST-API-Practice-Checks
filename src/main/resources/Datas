@@ -1,0 +1,10 @@
+insert into course values(129,'java',1000.0,'good','debashish','2021-08-16T00:00:00');
+
+insert into course values(130,'DBMS',2000.0,'good','Sekhar','2021-08-16T00:00:00');
+
+
+insert into student values(99,29,129);
+
+insert into student values(100,30,130);
+
+insert into trainer values(5, 'B321');
